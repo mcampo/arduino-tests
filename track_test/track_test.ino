@@ -46,6 +46,7 @@ void loop() {
   hasToMove();  
   
   Serial.println();
+  // delay(600);
 }
 
 void measureDistance(US_SENSOR *sensor) {
@@ -98,7 +99,7 @@ void hasToMove() {
 
 void moveLeft() {
   Serial.print("  -->  MOVE LEFT");
-  servoPos += servoPos + ANGLE_DELTA;
+  servoPos = servoPos + ANGLE_DELTA;
   moveServo(servoPos);
 }
 
