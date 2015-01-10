@@ -13,13 +13,13 @@ void setup()
  
 void loop() 
 { 
-  for(pos = 1; pos < 180; pos += 1) 
+  for(pos = 60; pos < 120; pos += 1) 
   {
     servo.write(pos);
     delay(STEP_DELAY);
   }
   delay(TURN_WAIT);
-  for(pos = 179; pos>= 1; pos-=1)
+  for(pos = 119; pos > 60; pos-=1)
   {                                
     servo.write(pos);
     delay(STEP_DELAY);
