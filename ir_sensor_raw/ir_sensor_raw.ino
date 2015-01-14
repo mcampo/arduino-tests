@@ -101,6 +101,6 @@ void printpulses(void) {
     Serial.print(",\n");
   }
   Serial.print("  "); // indent
-  Serial.print(pulses[currentpulse-1][1] * RESOLUTION / 10, DEC);
+  Serial.print(pulses[currentpulse-1][1] * RESOLUTION);
   Serial.print(", 0};\n");
 }
