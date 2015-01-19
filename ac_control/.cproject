@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="it.baeyens.arduino.core.toolChain.release.490198862">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="it.baeyens.arduino.core.toolChain.release.490198862" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.MakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildProperties="" description="" id="it.baeyens.arduino.core.toolChain.release.490198862" name="Release" parent="org.eclipse.cdt.build.core.emptycfg">
+					<folderInfo id="it.baeyens.arduino.core.toolChain.release.490198862.1409684886" name="/" resourcePath="">
+						<toolChain id="it.baeyens.arduino.core.toolChain.release.1452051656" name="Arduino Toolchain" superClass="it.baeyens.arduino.core.toolChain.release">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="it.baeyens.arduino.targetplatform.1470757020" name="Arduino Target" osList="all" superClass="it.baeyens.arduino.targetplatform"/>
+							<builder buildPath="${workspace_loc:/ac_control}/Release" id="it.baeyens.arduino.sketch.builder.608025422" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Arduino sketch builder" superClass="it.baeyens.arduino.sketch.builder"/>
+							<tool id="it.baeyens.arduino.tool.sketch.compiler.cpp.903133013" name="Arduino C++ Compiler" superClass="it.baeyens.arduino.tool.sketch.compiler.cpp">
+								<option id="it.baeyens.arduino.compiler.cpp.sketch.option.incpath.319771348" name="Include Paths (-I)" superClass="it.baeyens.arduino.compiler.cpp.sketch.option.incpath" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ac_control/arduino/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ac_control/arduino/variant}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ac_control/Libraries/SoftwareSerial}&quot;"/>
+								</option>
+								<inputType id="it.baeyens.arduino.compiler.cpp.sketch.input.64194023" name="CPP source files" superClass="it.baeyens.arduino.compiler.cpp.sketch.input"/>
+							</tool>
+							<tool id="it.baeyens.arduino.tool.compiler.c.189662585" name="Arduino C Compiler" superClass="it.baeyens.arduino.tool.compiler.c">
+								<option id="it.baeyens.arduino.compiler.c.sketch.option.incpath.150685059" name="Include Paths (-I)" superClass="it.baeyens.arduino.compiler.c.sketch.option.incpath" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ac_control/arduino/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ac_control/arduino/variant}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ac_control/Libraries/SoftwareSerial}&quot;"/>
+								</option>
+								<inputType id="it.baeyens.arduino.compiler.c.sketch.input.1053677057" name="C Source Files" superClass="it.baeyens.arduino.compiler.c.sketch.input"/>
+							</tool>
+							<tool id="it.baeyens.arduino.tool.ar.721894180" name="Arduino archiver" superClass="it.baeyens.arduino.tool.ar"/>
+							<tool id="it.baeyens.arduino.tool.combine.465460303" name="Arduino combiner" superClass="it.baeyens.arduino.tool.combine"/>
+							<tool id="it.baeyens.arduino.tool.objcopy.eep.567538183" name="Arduino tool Create eeprom" superClass="it.baeyens.arduino.tool.objcopy.eep"/>
+							<tool id="it.baeyens.arduino.tool.objcopy.flash.26621684" name="Arduino tool Create hex" superClass="it.baeyens.arduino.tool.objcopy.flash"/>
+							<tool id="it.baeyens.arduino.tool.size.963686722" name="Arduino tool Print Size" superClass="it.baeyens.arduino.tool.size"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="Libraries/*/?xamples" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name=""/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="ac_control.null.526011073" name="ac_control"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope"/>
+</cproject>
