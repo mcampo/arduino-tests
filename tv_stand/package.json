@@ -1,0 +1,11 @@
+{
+  "name": "tv_stand",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "dependencies": {
+    "keypress": "^0.2.1",
+    "opencv": "^5.0.0",
+    "serialport": "^2.0.6"
+  }
+}
